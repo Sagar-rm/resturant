@@ -43,8 +43,9 @@ function App() {
 
       </Routes>
 
-      <footer>
+      <footer className='text-center py-3 bg-dark text-light'>
         <br/>
+        © 2024 Indian Restaurant. All rights reserved. | Designed by Your Company Name
       </footer>
     </div>
   );
