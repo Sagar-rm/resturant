@@ -9,83 +9,82 @@ import DessertImg from '../utils/img/dessert.jpg';
 const breakfast = [
     {
         id: 1,
-        name: 'English Breakfast',
-        description: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-        price: '£12'
-    },
+        name: 'Idli',
+        description: 'soft, steamed rice cakes served with sambar (lentil soup) and coconut chutney',
+        price: '₹220'    },
     {
         id: 2,
-        name: 'Avocado Toast',
-        description: 'poached egg, avocado, onion, tomatoes, bread',
-        price: '£8'
+        name: 'Aloo Paratha',
+    description: 'flaky, stuffed flatbread with a spiced potato filling, served with plain yogurt, pickles, and butter',
+    price: '₹300'
     },
     {
         id: 3,
-        name: 'Burrito',
-        description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '£11'
+        name: 'Poha',
+        description: 'light, fluffy rice flakes cooked with onions, mustard seeds, curry leaves, and a hint of turmeric, garnished with fresh coriander and lemon',
+        price: '₹200'
     }
 ];
 const lunch = [
     {
         id: 1,
-        name: 'Caesar Salad',
-        description: 'chicken breast, romaine lettuce, croutons, parmesan',
-        price: '£15'
+        name: 'Vegetarian Thali',
+        description: 'a selection of dal (lentil curry), vegetable curry, paneer butter masala, rice, chapati, and raita (yogurt with spices)',
+        price: '₹1,200'
     },
     {
         id: 2,
-        name: 'Spaghetti Carbonara',
-        description: 'spaghetti, pancetta, garlic, eggs, parmesan, pepper',
-        price: '£14'
+        name: 'Chicken Biryani',
+    description: 'fragrant basmati rice cooked with spiced chicken, saffron, and a blend of aromatic spices, served with raita and salad',
+    price: '₹1,100'
     },
     {
         id: 3,
-        name: 'Pizza',
-        description: 'chorizo, italian salami, tomatoes, mushrooms, olives',
-        price: '£12'
+        name: 'Paneer Tikka Masala',
+    description: 'grilled paneer cubes simmered in a creamy, spiced tomato sauce, served with naan bread or rice',
+    price: '₹1,000'
     }
 ];
 
 const dinner = [
     {
         id: 1,
-        name: 'Spicy Beef',
-        description: 'spicy beef, potatoes, carrots, cheese sauce, spices',
-        price: '£17'
+        name: 'Butter Chicken',
+        description: 'tender chicken pieces cooked in a rich, creamy tomato-based sauce with a hint of butter, served with naan or rice',
+        price: '₹1,300'
     },
     {
         id: 2,
-        name: 'Spaghetti Bolognese',
-        description: 'onion, carrot, celery, minced meat, spaghetti, parmesan',
-        price: '£15'
+        name: 'Lamb Rogan Josh',
+        description: 'slow-cooked lamb in a flavorful curry with spices, yogurt, and a touch of saffron, served with rice or naan',
+        price: '₹1,400'
     },
     {
         id: 3,
-        name: 'Chickpea Curry',
-        description: 'onion, chickpea, garlic, mushrooms, tomatoes, spices',
-        price: '£12'
+        name: 'Mixed Vegetable Curry',
+    description: 'a hearty curry made with seasonal vegetables and a blend of spices, served with rice or chapati',
+    price: '₹900'
     }
 ];
 
 const dessert = [
     {
         id: 1,
-        name: 'Lemon Cake',
-        description: 'flour, sugar, baking powder, lemon',
-        price: '£9'
+        name: 'Gulab Jamun',
+    description: 'sweet, deep-fried dough balls soaked in rose-scented sugar syrup, served warm',
+    price: '₹300'
     },
     {
         id: 2,
-        name: 'Cinnamon Rolls',
-        description: 'flour, salt, sugar, cinnamon, yeast, sour cream, milk',
-        price: '£11'
+        name: 'Rasgulla',
+    description: 'light, spongy cheese balls soaked in a delicate sugar syrup, perfect for a sweet finish',
+    price: '₹350'
     },
     {
         id: 3,
-        name: 'Vegan Pancakes',
-        description: 'flour, sugar, baking powder, soya milk, blueberries',
-        price: '£8'
+        name: 'Kheer',
+    description: 'creamy rice pudding made with milk, sugar, and flavored with cardamom and nuts',
+    price: '₹250'
     }
 ];
 

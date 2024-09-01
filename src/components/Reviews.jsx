@@ -16,8 +16,9 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste culpa perspiciatis. Magnam, explicabo cumque.
-                                </CardText>
+                                Indian Restaurant serves authentic, delicious Indian dishes with excellent service and a cozy atmosphere. Highly recommend for great flavors!
+
+</CardText>
                             </div>
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">
@@ -31,8 +32,7 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, mollitia?
-                                </CardText>
+                                Amazing food and authentic flavors at Indian Restaurant. Great variety, friendly service, and a warm ambiance. Definitely worth visiting!                                </CardText>
                             </div>
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">
@@ -46,8 +46,7 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolor itaque reprehenderit minus tempore. Iste quibusdam facilis excepturi nihil maiores!
-                                </CardText>
+                                Indian Restaurant delivers authentic Indian cuisine with rich flavors and great service. The cozy setting makes it perfect for any occasion.                                </CardText>
                             </div>
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">
@@ -61,8 +60,7 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et voluptate minus error suscipit officiis placeat repudiandae quibusdam officia tempora, reprehenderit, enim, quidem exercitationem laborum!
-                                </CardText>
+                                Indian Restaurant offers a delightful experience with authentic dishes, from flavorful curries to aromatic biryanis. The service is attentive, and the cozy atmosphere makes it a perfect spot for Indian food lovers.                                </CardText>
                             </div>
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">

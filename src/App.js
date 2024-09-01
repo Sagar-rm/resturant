@@ -6,7 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Contact from './pages/Contact'
+import Img from './utils/img/logo.jpg'
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
         <Container>
           <Navbar.Brand>
             <Link to="/" className='navbar-brand text-success fw-semibold'>
-              React Restaurant
+            <img src={Img} className='img' alt=" img" height="50" width="auto"/>
+
+              Indian Restaurant
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -25,6 +28,8 @@ function App() {
               <Nav.Link href='/menu' className='text-uppercase'>Menu</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Contact</Nav.Link>
+
+
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -34,11 +39,12 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/menu' element={<Menu />} />
         <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/contact' element={<Contact/>} />
+
       </Routes>
 
-      <footer className='bg-body-tertiary'>
-        <p className='p-3 m-0 text-center'>copyright @ made by Ionut Cora</p>
+      <footer>
+        <br/>
       </footer>
     </div>
   );
