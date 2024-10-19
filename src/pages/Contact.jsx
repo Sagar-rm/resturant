@@ -5,6 +5,11 @@ import { Form } from 'react-bootstrap';
 import { Reviews } from '../components/Reviews';
 
 function Contact() {
+    const handleSubmit = (event) => {
+        event.preventDefault(); // Prevent the default form submission
+        alert('Form submitted successfully!');
+    };
+
     return (
         <div className='contact-page'>
             <header className='mt-5'>
@@ -19,7 +24,7 @@ function Contact() {
                         <ContactInfo />
                     </div>
                     <div className='col-lg-6 d-flex justify-content-center'>
-                        <Form>
+                        <Form onSubmit={handleSubmit}>
                             <Form.Group className='row mb-3'>
                                 <div className='col-md-6'>
                                     <Form.Label htmlFor='first-name'>First Name</Form.Label>
@@ -52,10 +57,11 @@ function Contact() {
                             </Form.Group>
                             <Form.Group className='mb-4'>
                                 <Form.Label htmlFor='comments'>Comments</Form.Label>
-                                <Form.Control type='textarea' id='comments' />
+                                <Form.Control as='textarea' id='comments' />
                             </Form.Group>
 
                             <button type='submit' className='btn btn-success btn-lg'>Submit</button>
+                            
                         </Form>
                     </div>
                 </div>
@@ -65,7 +71,8 @@ function Contact() {
                 <Reviews />
             </div>
         </div>
-    )
+    );
 }
 
 export default Contact;
+
